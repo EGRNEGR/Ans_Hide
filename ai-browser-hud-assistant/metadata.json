@@ -1,0 +1,6 @@
+{
+  "name": "AI Browser HUD Assistant",
+  "description": "Профессиональный скрипт на Python (PyQt6 + Win32 + Gemini) для незаметного анализа активного окна браузера без потери фокуса с прозрачным Click-Through HUD оверлеем.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
