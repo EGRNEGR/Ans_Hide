@@ -3,7 +3,7 @@ import { ScriptConfig } from "../types";
 export function generatePythonScript(config: ScriptConfig): string {
   const apiKeyLiteral = config.apiKey.trim()
     ? `os.environ.get("GEMINI_API_KEY", "${config.apiKey.trim()}")`
-    : `os.environ.get("GEMINI_API_KEY", "AIzaSyDnattZb1HsCDBaNglpSGcok5_EY0-n8EE")`;
+    : `os.environ.get("GEMINI_API_KEY", "YOUR_KEY")`;
 
   return `"""
 ================================================================================
